@@ -1,4 +1,4 @@
-package junit.tutorial.ex01.e01;
+package junit.tutorial.ex02.e01;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -8,7 +8,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class e01Test {
+class FizzBuzzTest {
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
@@ -28,7 +28,7 @@ class e01Test {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		FizzBuzz.createFizzBuzzList
 	}
 
 }

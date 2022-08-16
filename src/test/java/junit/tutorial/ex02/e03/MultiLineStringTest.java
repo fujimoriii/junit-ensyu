@@ -1,4 +1,4 @@
-package junit.tutorial.ex01.e05;
+package junit.tutorial.ex02.e03;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -8,7 +8,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class ItemStockTest {
+class MultiLineStringTest {
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
@@ -28,14 +28,7 @@ class ItemStockTest {
 
 	@Test
 	void test() {
-		ItemStock itemStock = new ItemStock();
-		itemStock.add(new Item("book",100));
-		itemStock.add(new Item("book",100));
-		itemStock.add(new Item("CD",500));
-		int firstGetNum = itemStock.getNum(new Item("book",100));//Item item = new Item();省略
-		assertEquals(2,firstGetNum,"bookのadd()失敗");
-		System.out.println(firstGetNum);
-		
+		fail("Not yet implemented");
 	}
 
 }
